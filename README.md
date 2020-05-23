@@ -54,7 +54,8 @@ A la maqiuna le llega un mensaje
   unPaquete pasastePorMaquina: self  //aca debo hacer el dispatching. Aca no puedo resolverlo porque tengo que saber quien es el paquete
 
 Luego, en cada una de las clases de los paquetes debes indicar de que paquete se trata.
+
 PaqueteHTTP>> pasastePorMaquina: unaMaquina
         unaMaquina recibirPaqueteHTTP: self  //aca se hace el final del doble dispatching. El que recibe el mensaje recibirPaqueteHTTP ya puede resolver el problema.
-
+        
 y asi para cada tipo de paquete... y recien ahi, luego del doble dispatching podes determinar a donde enviar ese paquete..
