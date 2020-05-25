@@ -1,8 +1,6 @@
 # Doble-Dispatching
 Tecnica Objetos
 
-Ayudante diplomada: Gabriela Perez
-
 Para decidir como tengo que hacer algo, debo conocer a que clase pertenece el objeto que recibe el mensaje, pero tambien a que clase pertenece el parametro. El ejemplo tipico es la suma entre enteros e imaginarios. Otro que recien mire en internet y me parece mas piola es el juego de piedra papel y tijera.
 Para saber el resultado debo conocer los dos movimientos
 Tijera>> jugarCon: otroMovimiento
